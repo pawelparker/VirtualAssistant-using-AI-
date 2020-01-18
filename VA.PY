@@ -5,7 +5,7 @@ import wikipedia
 import webbrowser
 import os
 import smtplib
-from elasticsearch import Elasticsearch
+from elasticsearch import Elasticsearch 
 from elasticsearch.helpers import bulk
 
 
@@ -91,8 +91,8 @@ if __name__ == "__main__":
         elif 'open google' in query:
             webbrowser.open("google.com")
 
-        elif 'open stackoverflow' in query:
-            webbrowser.open("stackoverflow.com")   
+        elif 'open facebook' in query:
+            webbrowser.open("facebook.com")   
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")   
